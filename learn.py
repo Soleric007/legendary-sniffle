@@ -1,0 +1,5 @@
+name = input('What is your name? ' )
+year = input('What year were you born in? ' )
+final_year = (2023 - int(year))
+final = str(final_year)
+print ('Hi ' + name + ' you are ' + final + ' years old')
