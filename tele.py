@@ -5,7 +5,9 @@ from flask import Flask, request
 app = Flask(__name__)
 
 
-url = "https://843c-105-112-44-166.eu.ngrok.io/"
+# url = "https://843c-105-112-44-166.eu.ngrok.io/"
+url = "https://richbot.fugoku.com/"
+
 token = "5936136679:AAGD3tx2pwtO9sPAgaj9ccKBzrESTG0zmZ8"
 
 bot = telebot.TeleBot(token, parse_mode=None)
